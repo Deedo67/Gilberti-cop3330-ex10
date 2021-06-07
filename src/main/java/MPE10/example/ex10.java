@@ -41,12 +41,13 @@ public class ex10 {
         double twotot = twoqan * twoprc;
         double threetot = threeqan * threeprc;
         double subtotal = onetot + twotot + threetot;
-        double tax = subtotal * 5.5;
+        double tax = subtotal * .055;
         double total = tax + subtotal;
 
         //output
         System.out.println("Subtotal: $"+String.format("%.2f", subtotal));
         System.out.println("Tax: $"+String.format("%.2f", tax));
+        System.out.println("Total: $"+String.format("%.2f", total));
     }
     //main method end
 }
